@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Alterado para BrowserRouter
 import SuiteDunas from "./pages/suite_dunas.jsx";
+import SuiteClassic from "./pages/suite_classic.jsx";
+import SuiteEstarVip from "./pages/suite_estarvip.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -18,6 +20,8 @@ createRoot(document.getElementById("root")).render(
               <Routes>
                 <Route path="/" element={<App />} />
                 <Route path="/suite-dunas" element={<SuiteDunas />}/>
+                <Route path="/suite-classic" element={<SuiteClassic />}/>
+                <Route path="/suite-estar-vip" element={<SuiteEstarVip />}/>
               </Routes>
             </div>
           </div>
