@@ -35,13 +35,10 @@ const Home = () => {
         </h1>
         <p className="text-base sm:text-lg md:text-2xl">
           O DUNAS MOTEL ESTÁ LOCALIZADO NO BAIRRO MANOEL DIAS BRANCO, PRÓXIMO À
-          CIDADE 2000, SENTIDO PRAIA DO FUTURO. NOSSO PROPÓSITO É OFERTAR AOS
+          CIDADE 2000, SENTIDO PRAIA DO FUTURO. <br /> <br /> NOSSO PROPÓSITO É OFERTAR AOS
           NOSSOS CLIENTES UM AMBIENTE SEGURO E PRIVADO PARA DESFRUTAR DE
           MOMENTOS DE PURO PRAZER. BUSCAMOS ENTREGAR UM SERVIÇO DE QUALIDADE,
           COM RESPEITO E ATENÇÃO ÀS NECESSIDADES DE CADA CLIENTE.
-        </p>
-        <p className="text-base sm:text-lg md:text-2xl">
-          ESPERAMOS VOCÊ PARA MOMENTOS DE PURO PRAZER
         </p>
       </div>
     </>
