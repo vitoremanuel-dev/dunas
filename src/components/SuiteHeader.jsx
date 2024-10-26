@@ -7,7 +7,7 @@ const SuiteHeader = ({ image, suiteName }) => {
         <h1 className="text-[5rem]  md:text-[6rem] lg:text-[8rem] xl:text-[10rem] leading-tight">
           SUÍTE
         </h1>
-        <p className="text-[5rem]  md:text-[6rem] lg:text-[8rem] xl:text-[10rem] text-black">
+        <p className="text-[3.6rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] text-black">
           {suiteName}
         </p>
       </div>

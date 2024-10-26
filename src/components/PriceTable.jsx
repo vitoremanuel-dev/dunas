@@ -13,7 +13,7 @@ const PriceTable = ({ title, prices }) => {
                 <p className="flex-1">{price.description}</p>
                 <p className="mx-2 hidden lg:block">
                 </p>
-                <p className="whitespace-nowrap text-2xl">R$ {price.value}</p>
+                <p className="whitespace-nowrap text-[1.4rem] md:text-3xl">R$ {price.value}</p>
               </div>
               <hr />
             </div>
