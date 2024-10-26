@@ -1,0 +1,29 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Alterado para BrowserRouter
+import SuiteDunas from "./pages/suite_dunas.jsx";
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <Router> 
+      <div className="w-full flex min-h-screen sm:flex-row bg-white duration-300">
+        <div className="w-full flex flex-col items-center justify-between">
+          <div className="w-full flex flex-col items-center">
+            <Navbar />
+            <div className="w-full flex flex-col gap-base px-base sm:px-0 items-center">
+              <Routes>
+                <Route path="/" element={<App />} />
+                <Route path="/suite-dunas" element={<SuiteDunas />}/>
+              </Routes>
+            </div>
+          </div>
+          <Footer full={true} />
+        </div>
+      </div>
+    </Router>
+  </StrictMode>
+);
