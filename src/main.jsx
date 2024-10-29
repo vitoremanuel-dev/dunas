@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Al
 import SuiteDunas from "./pages/suite_dunas.jsx";
 import SuiteClassic from "./pages/suite_classic.jsx";
 import SuiteEstarVip from "./pages/suite_estarvip.jsx";
+import Contact from "./pages/contact.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -22,6 +23,7 @@ createRoot(document.getElementById("root")).render(
                 <Route path="/suite-dunas" element={<SuiteDunas />}/>
                 <Route path="/suite-classic" element={<SuiteClassic />}/>
                 <Route path="/suite-estar-vip" element={<SuiteEstarVip />}/>
+                <Route path="/contato" element={<Contact />}/>
               </Routes>
             </div>
           </div>

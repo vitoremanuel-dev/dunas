@@ -8,7 +8,7 @@ const SuiteAmenities = ({ amenities }) => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 w-full justify-center gap-y-5 gap-x-3">
         {amenities.map((amenity, index) => (
-          <p key={index} className="flex items-center gap-x-2">
+          <p key={index} className="flex items-center gap-x-2 font-roboto">
             <FaCheckCircle className="text-[#4d4e53]" />
             {amenity}
           </p>
