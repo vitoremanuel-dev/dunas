@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Alterado para BrowserRouter
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; 
 import SuiteDunas from "./pages/suite_dunas.jsx";
 import SuiteClassic from "./pages/suite_classic.jsx";
 import SuiteEstarVip from "./pages/suite_estarvip.jsx";
