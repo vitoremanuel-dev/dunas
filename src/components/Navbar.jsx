@@ -72,12 +72,18 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <span onClick={goToContact} className="cursor-pointer">CONTATO</span>
-        </div>
-        <div onClick={() => window.open("https://g.co/kgs/4UKyNvE", "_blank")}>
-          <span className="absolute right-1 top-1 h-full bg-[#e4cc68] flex text-xs px-3 justify-center items-center text-black font-orbitron font-semibold">
-            DUNAS MOTEL
+          <span onClick={goToContact} className="cursor-pointer">
+            CONTATO
           </span>
+        </div>
+        <div className="relative max-w-[50%] h-[2rem]">
+          <div
+            onClick={() => window.open("https://g.co/kgs/4UKyNvE", "_blank")}
+          >
+            <span className="absolute -right-4 h-full bg-[#e4cc68] flex text-xs md:text-base md:p-7 px-3 justify-center items-center text-black font-orbitron font-semibold">
+              DUNAS MOTEL
+            </span>
+          </div>
         </div>
       </div>
     </>

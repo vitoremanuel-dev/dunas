@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <div className="relative h-[35rem] w-full">
-        <img src={Contato} className="w-full h-full object-cover" />
+        <img src={Contato} loading="lazy" className="w-full h-full object-cover" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black bg-opacity-50 font-orbitron">
           <p className="text-[3.6rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] text-black">
             NOSSO
@@ -36,7 +36,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-full md:w-[50%] h-auto md:h-[30rem] hidden md:block">
-          <img src={Garagem} className="w-full h-full object-cover" />
+          <img src={Garagem} loading="lazy" className="w-full h-full object-cover" />
         </div>
       </div>
       <div className="w-full h-[40rem]">
