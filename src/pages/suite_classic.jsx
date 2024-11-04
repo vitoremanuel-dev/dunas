@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import SuiteHeader from "../components/SuiteHeader";
 import CLASSIC_HEADER from "../assets/suite-classic-header.jpeg";
 import CLASSIC from "../assets/suite-classic.jpeg";
@@ -8,6 +9,10 @@ import SuiteAmenities from "../components/SuiteAmenities";
 import PriceTable from "../components/PriceTable";
 
 const SuiteClassic = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
+
   const comodidades = [
     "GARAGEM PRIVATIVA",
     "AR-CONDICIONADO",
@@ -37,8 +42,7 @@ const SuiteClassic = () => {
         description="A Suíte Classic é perfeita para
 os casais mais sofisticados,
 com amplo espaço para usar a
-sua criatividade!
-"
+sua criatividade!"
         images={images}
       />
       <SuiteAmenities amenities={comodidades} />

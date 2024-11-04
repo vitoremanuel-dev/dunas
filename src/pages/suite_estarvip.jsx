@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import SuiteHeader from "../components/SuiteHeader";
 import VIP_HEADER from "../assets/suite-estarvip-header.jpeg";
 import VIP from "../assets/suite-estarvip.jpeg";
@@ -8,6 +9,10 @@ import SuiteAmenities from "../components/SuiteAmenities";
 import PriceTable from "../components/PriceTable";
 
 const SuiteEstarVip = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
+
   const comodidades = [
     "GARAGEM PRIVATIVA",
     "AR-CONDICIONADO",
@@ -27,19 +32,15 @@ const SuiteEstarVip = () => {
     { description: "Terceira pessoa na suíte", value: "35,00" },
   ];
 
-  const images = [VIP, VIP2, VIP3]; 
+  const images = [VIP, VIP2, VIP3];
 
   return (
     <>
       <SuiteHeader image={VIP_HEADER} suiteName="ESTAR-VIP" />
       <SuiteDetails
         suiteName="ESTAR-VIP"
-        description="A Suíte Estar-Vip é perfeita
-        para os casais mais exigentes,
-        que preferem desfrutar com
-        tranquilidade os seus
-        momentos de prazer."
-        images={images} 
+        description="A Suíte Estar-Vip é perfeita para os casais mais exigentes, que preferem desfrutar com tranquilidade os seus momentos de prazer."
+        images={images}
       />
       <SuiteAmenities amenities={comodidades} />
       <PriceTable title="TABELA DE PREÇOS DA SUÍTE ESTAR-VIP" prices={prices} />

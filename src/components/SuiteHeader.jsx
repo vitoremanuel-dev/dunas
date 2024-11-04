@@ -8,7 +8,7 @@ const SuiteHeader = ({ image, suiteName }) => {
         className="w-full h-full object-cover"
         alt={`Header for ${suiteName}`}
       />
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-50 font-orbitron">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-50 font-orbitron font-bold">
         <h1 className="text-[5rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[11rem] leading-tight">
           SUÍTE
         </h1>

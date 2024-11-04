@@ -12,25 +12,30 @@ const Navbar = () => {
 
   const goToSuíteDunas = () => {
     navigate("/suite-dunas");
+    window.scrollTo(0, 0);
     setDropdownOpen((prev) => !prev);
   };
 
   const goToSuíteClassic = () => {
     navigate("/suite-classic");
+    window.scrollTo(0, 0);
     setDropdownOpen((prev) => !prev);
   };
 
   const goToSuíteEstarVip = () => {
     navigate("/suite-estar-vip");
+    window.scrollTo(0, 0);
     setDropdownOpen((prev) => !prev);
   };
 
   const goToHome = () => {
     navigate("/");
+    window.scrollTo(0, 0);
   };
 
   const goToContact = () => {
     navigate("/contato");
+    window.scrollTo(0, 0);
   };
 
   return (

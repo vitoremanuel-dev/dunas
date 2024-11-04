@@ -12,7 +12,7 @@ const Contact = () => {
           loading="lazy"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black bg-opacity-50 font-orbitron">
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black bg-opacity-50 font-orbitron font-bold">
           <p className="text-[3.6rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] text-black">
             NOSSO
           </p>
@@ -22,10 +22,10 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row w-full bg-black text-white h-auto font-orbitron">
-        <div className="w-full md:w-[50%] flex flex-col items-center md:justify-between text-[1.2rem] md:text-[1.5rem] lg:text-[2rem] px-4 md:px-20 py-8">
+        <div className="w-full md:w-[50%] flex flex-col items-center text-center md:justify-between text-[1.2rem] md:text-[1.5rem] lg:text-[2rem] px-4 md:px-20 py-8">
           <p className="text-4xl md:text-5xl text-[#e4cc68]">CONTATE-NOS</p>
           <span className="font-roboto py-2">
-            Rua Zuca Accioly, 275 <br /> Manoel Dias Branco
+            Rua Zuca Accioly, 275 <br /> Bairro Manoel Dias Branco
           </span>
           <p className="font-roboto text-[#e4cc68] py-2">
             PRÓXIMO À CIDADE 2000

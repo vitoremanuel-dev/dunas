@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col w-full items-center font-orbitron leading-tight">
-        <div className="flex flex-col items-center md:flex-row md:items-baseline gap-x-1">
+        <div className="flex flex-col items-center md:flex-row md:items-baseline gap-x-1 font-bold">
           <h1 className="text-[3.5rem] sm:text-[5rem] md:text-[8rem] lg:text-[9rem] 2xl:text-[10rem]">
             DUNAS
           </h1>
@@ -123,10 +123,9 @@ const Home = () => {
           NOSSAS SUÍTES
         </h1>
         <p className="px-5 md:px-10 text-lg md:text-2xl lg:text-3xl 2xl:text-4xl font-montserrat">
-          O Dunas Motel conta com suítes modernas, que atendem às necessidades
-          dos clientes mais exigentes. todas as nossas suítes possuem garagem
-          privativa e estão equipadas com internet wi-fi, chuveiro quente,
-          secador de cabelo, som bluetooth e canal erótico.
+          O Dunas Motel conta com suítes modernas, com garagem privativa e
+          equipadas com internet wi-fi, som bluetooth, chuveiro quente, secador
+          de cabelo e canal erótico.
         </p>
       </div>
 

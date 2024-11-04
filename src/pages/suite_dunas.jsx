@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import DUNAS_HEADER from "../assets/suite-dunas-header.jpeg";
 import DUNAS from "../assets/suite-dunas.jpeg";
 import DUNAS2 from "../assets/dunas_2.jpeg";
@@ -8,6 +9,10 @@ import SuiteAmenities from "../components/SuiteAmenities";
 import PriceTable from "../components/PriceTable";
 
 const SuiteDunas = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
+
   const comodidades = [
     "GARAGEM PRIVATIVA",
     "AR-CONDICIONADO",
@@ -20,13 +25,13 @@ const SuiteDunas = () => {
   ];
 
   const prices = [
-    { description: 'Permanência de 2 horas', value: '88,00' },
-    { description: 'Cada meia hora excedente', value: '22,00' },
-    { description: 'Pernoite de 8 horas', value: '176,00' },
-    { description: 'Terceira pessoa na suíte', value: '35,00' },
+    { description: "Permanência de 2 horas", value: "88,00" },
+    { description: "Cada meia hora excedente", value: "22,00" },
+    { description: "Pernoite de 8 horas", value: "176,00" },
+    { description: "Terceira pessoa na suíte", value: "35,00" },
   ];
 
-  const images = [DUNAS, DUNAS2, DUNAS3]; 
+  const images = [DUNAS, DUNAS2, DUNAS3];
 
   return (
     <>
