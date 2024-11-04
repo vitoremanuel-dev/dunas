@@ -34,9 +34,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative w-full h-[4rem] flex items-center px-5 bg-black text-white justify-between">
+    <div className="relative w-full h-[4rem] flex items-center px-6 bg-black text-white justify-between">
       <div className="flex gap-x-5">
-        <span onClick={goToHome} className="cursor-pointer text-[1rem] md:text-lg 2xl:text-xl">
+        <span
+          onClick={goToHome}
+          className="cursor-pointer text-[1rem] md:text-lg 2xl:text-xl"
+        >
           HOME
         </span>
         <div className="relative">
@@ -71,18 +74,18 @@ const Navbar = () => {
             </div>
           )}
         </div>
-        <span onClick={goToContact} className="cursor-pointer text-[1rem] md:text-lg 2xl:text-xl">
+        <span
+          onClick={goToContact}
+          className="cursor-pointer text-[1rem] md:text-lg 2xl:text-xl"
+        >
           CONTATO
         </span>
       </div>
-      <div className="relative max-w-[50%] h-[2rem]">
-        {/* <div
-          onClick={() => window.open("https://g.co/kgs/4UKyNvE", "_blank")}
-        >
-          <span className=" cursor-pointer h-full bg-[#e4cc68] flex text-xs md:text-base md:p-7 px-3 justify-center items-center text-black font-orbitron font-semibold whitespace-nowrap">
-            DUNAS MOTEL
-          </span>
-        </div> */}
+      <div
+        onClick={() => window.open("https://g.co/kgs/4UKyNvE", "_blank")}
+        className="bg-[#e4cc68] h-20 p-7 items-center justify-center text-black font-semibold text-2xl hidden md:block cursor-pointer"
+      >
+        <p className="font-orbitron">DUNAS MOTEL</p>
       </div>
     </div>
   );
