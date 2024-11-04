@@ -51,19 +51,19 @@ const Navbar = () => {
               <ul className="py-2">
                 <li
                   onClick={goToSuíteDunas}
-                  className="px-5 py-2 hover:bg-gray-200 cursor-pointer text-[1rem] md:text-lg 2xl:text-xl"
+                  className="px-5 py-2 hover:bg-gray-200 cursor-pointer text-[1rem] md:text-lg "
                 >
                   Suíte Dunas
                 </li>
                 <li
                   onClick={goToSuíteClassic}
-                  className="px-5 py-2 hover:bg-gray-200 cursor-pointer text-[1rem] md:text-lg 2xl:text-xl"
+                  className="px-5 py-2 hover:bg-gray-200 cursor-pointer text-[1rem] md:text-lg "
                 >
                   Suíte Classic
                 </li>
                 <li
                   onClick={goToSuíteEstarVip}
-                  className="px-5 py-2 hover:bg-gray-200 cursor-pointer text-[1rem] md:text-lg 2xl:text-xl"
+                  className="px-5 py-2 hover:bg-gray-200 cursor-pointer text-[1rem] md:text-lg "
                 >
                   Suíte Estar-Vip
                 </li>

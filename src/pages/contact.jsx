@@ -7,7 +7,11 @@ const Contact = () => {
   return (
     <>
       <div className="relative h-[35rem] w-full">
-        <img src={Contato} loading="lazy" className="w-full h-full object-cover" />
+        <img
+          src={Contato}
+          loading="lazy"
+          className="w-full h-full object-cover"
+        />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black bg-opacity-50 font-orbitron">
           <p className="text-[3.6rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] text-black">
             NOSSO
@@ -30,13 +34,25 @@ const Contact = () => {
             <MdPhone />
             <span className="ml-2">(85) 3023-7713</span>
           </div>
-          <div className="flex items-center font-roboto">
+          <div
+            onClick={() =>
+              window.open(
+                "https://www.instagram.com/dunasmotelfortaleza?igsh=N3lyZ3c4Ym10cDd2",
+                "_blank"
+              )
+            }
+            className="flex items-center font-roboto cursor-pointer"
+          >
             <TiSocialInstagram />
             <span className="ml-2">@dunasmotelfortaleza</span>
           </div>
         </div>
         <div className="w-full md:w-[50%] h-auto md:h-[30rem] hidden md:block">
-          <img src={Entrada} loading="lazy" className="w-full h-full object-cover" />
+          <img
+            src={Entrada}
+            loading="lazy"
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
       <div className="w-full h-[40rem]">

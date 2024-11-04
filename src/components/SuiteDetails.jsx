@@ -11,10 +11,10 @@ const SuiteDetails = ({ suiteName, description, images }) => {
     <div className="flex flex-col md:flex-row w-full bg-black text-white h-[35rem] font-orbitron">
       <div className="w-full md:w-[50%] flex flex-col items-center justify-center text-[1.2rem] md:text-[1.5rem] lg:text-[2rem] 2xl:text-[2.5rem] gap-y-3 px-4 md:px-20 py-8">
         <div className="flex gap-x-2 text-center text-2xl lg:text-4xl justify-center items-center">
-          <h1 className="text-white text-[1.2rem] lg:text-3xl xl:text-4xl 2xl:text-5xl leading-tight 2xl:leading-[1.2]">
+          <h1 className="text-white text-[1.2rem] lg:text-3xl xl:text-4xl 2xl:text-5xl leading-tight 2xl:leading-[1.2] whitespace-nowrap">
             SUÍTE
           </h1>
-          <span className="text-[#e4cc68] text-[1.2rem] lg:text-3xl xl:text-4xl 2xl:text-5xl leading-tight 2xl:leading-[1.2]">
+          <span className="text-[#e4cc68] text-[1.2rem] lg:text-3xl xl:text-4xl 2xl:text-5xl leading-tight 2xl:leading-[1.2] whitespace-nowrap">
             {suiteName}
           </span>
         </div>
