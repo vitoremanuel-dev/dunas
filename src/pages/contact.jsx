@@ -28,7 +28,7 @@ const Contact = () => {
             Rua Zuca Accioly, 275 <br /> Manoel Dias Branco
           </span>
           <p className="font-roboto text-[#e4cc68] py-2">
-            PRÓXIMO ÀS CIDADE 2000
+            PRÓXIMO À CIDADE 2000
           </p>
           <div className="flex items-center mb-2 sm:mb-0 font-roboto">
             <MdPhone />
