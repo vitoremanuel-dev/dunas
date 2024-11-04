@@ -1,5 +1,5 @@
 import Contato from "../assets/contato.jpeg";
-import Garagem from "../assets/garagem.jpeg";
+import Entrada from "../assets/entrada.jpeg";
 import { MdPhone } from "react-icons/md";
 import { TiSocialInstagram } from "react-icons/ti";
 
@@ -36,7 +36,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-full md:w-[50%] h-auto md:h-[30rem] hidden md:block">
-          <img src={Garagem} loading="lazy" className="w-full h-full object-cover" />
+          <img src={Entrada} loading="lazy" className="w-full h-full object-cover" />
         </div>
       </div>
       <div className="w-full h-[40rem]">

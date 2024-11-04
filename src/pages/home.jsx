@@ -30,10 +30,10 @@ const Home = () => {
     <>
       <div className="flex flex-col w-full items-center font-orbitron leading-tight">
         <div className="flex flex-col items-center md:flex-row md:items-baseline gap-x-1">
-          <h1 className="text-[3.5rem] sm:text-[5rem] md:text-[8rem] lg:text-[9rem]">
+          <h1 className="text-[3.5rem] sm:text-[5rem] md:text-[8rem] lg:text-[9rem] 2xl:text-[10rem]">
             DUNAS
           </h1>
-          <span className="text-[3rem] sm:text-[4rem] md:text-[3.4rem] lg:text-[6rem] text-[#c6b47d] whitespace-nowrap">
+          <span className="text-[3rem] sm:text-[4rem] md:text-[3.4rem] lg:text-[6rem] 2xl:text-[7rem] text-[#c6b47d] whitespace-nowrap">
             MOTEL
           </span>
         </div>
@@ -43,7 +43,7 @@ const Home = () => {
         <img
           src={Background}
           loading="lazy"
-          className="w-full h-[15rem] sm:h-[18rem] md:h-[21rem] object-cover"
+          className="w-full h-[15rem] sm:h-[18rem] md:h-[21rem] 2xl:h-[25rem] object-cover"
         />
       </div>
 
@@ -71,7 +71,7 @@ const Home = () => {
                 className="h-full w-full object-cover mx-auto"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 text-white opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">
-                <span className="flex text-center text-5xl font-semibold font-orbitron">
+                <span className="flex text-center text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-semibold font-orbitron">
                   SUÍTE <br /> DUNAS
                 </span>
               </div>
@@ -90,7 +90,7 @@ const Home = () => {
                 className="h-full w-full object-cover mx-auto"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 text-white opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">
-                <span className="flex text-center text-5xl font-semibold font-orbitron">
+                <span className="flex text-center text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-semibold font-orbitron">
                   SUÍTE <br /> CLASSIC
                 </span>
               </div>
@@ -109,7 +109,7 @@ const Home = () => {
                 className="h-full w-full object-cover mx-auto"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 text-white opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">
-                <span className="flex text-center text-5xl font-semibold font-orbitron">
+                <span className="flex text-center text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-semibold font-orbitron">
                   SUÍTE <br /> ESTAR VIP
                 </span>
               </div>
@@ -118,29 +118,29 @@ const Home = () => {
         </Swiper>
       </div>
 
-      <div className="w-full min-h-[25rem] flex flex-col gap-y-6 justify-center items-center text-center px-5 md:px-10 font-orbitron">
-        <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold">
+      <div className="w-full min-h-[30rem] flex flex-col gap-y-6 justify-center items-center text-center font-orbitron">
+        <h1 className="text-2xl md:text-4xl lg:text-6xl 2xl:text-7xl font-bold">
           NOSSAS SUÍTES
         </h1>
-        <p className="max-w-md text-lg md:text-base lg:text-xl overflow-hidden text-center font-roboto">
-          O DUNAS MOTEL CONTA COM SUÍTES MODERNAS, QUE ATENDEM ÀS NECESSIDADES
-          DOS CLIENTES MAIS EXIGENTES. TODAS AS NOSSAS SUÍTES POSSUEM GARAGEM
-          PRIVATIVA E ESTÃO EQUIPADAS COM INTERNET WI-FI, CHUVEIRO QUENTE,
-          SECADOR DE CABELO, SOM BLUETOOTH E CANAL ERÓTICO.
+        <p className="px-5 md:px-10 text-lg md:text-2xl lg:text-3xl 2xl:text-4xl font-montserrat">
+          O Dunas Motel conta com suítes modernas, que atendem às necessidades
+          dos clientes mais exigentes. todas as nossas suítes possuem garagem
+          privativa e estão equipadas com internet wi-fi, chuveiro quente,
+          secador de cabelo, som bluetooth e canal erótico.
         </p>
       </div>
 
-      <div className="w-full min-h-[30rem] flex flex-col bg-[#e4cc68] gap-y-6 justify-center items-center text-center px-5 md:px-10 font-orbitron">
-        <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold">
+      <div className="w-full min-h-[35rem] md:min-h-[30rem] flex flex-col bg-[#e4cc68] gap-y-6 justify-center items-center text-center px-5 md:px-10 font-orbitron">
+        <h1 className="text-2xl md:text-4xl lg:text-6xl 2xl:text-7xl font-bold">
           SOBRE O DUNAS MOTEL
         </h1>
-        <p className="max-w-md text-lg md:text-base lg:text-xl font-roboto">
-          O DUNAS MOTEL ESTÁ LOCALIZADO NO BAIRRO MANOEL DIAS BRANCO, PRÓXIMO À
-          CIDADE 2000, SENTIDO PRAIA DO FUTURO. <br /> <br />
-          NOSSO PROPÓSITO É OFERTAR AOS NOSSOS CLIENTES UM AMBIENTE SEGURO E
-          PRIVADO PARA DESFRUTAR DE MOMENTOS DE PURO PRAZER. BUSCAMOS ENTREGAR
-          UM SERVIÇO DE QUALIDADE, COM RESPEITO E ATENÇÃO ÀS NECESSIDADES DE
-          CADA CLIENTE.
+        <p className="md:px-10 text-lg md:text-2xl lg:text-3xl 2xl:text-4xl font-montserrat">
+          O Dunas Motel está localizado no bairro Manoel Dias Branco, próximo à
+          Cidade 2000, sentido Praia do Futuro. <br /> <br />
+          Nosso propósito é ofertar aos nossos clientes um ambiente seguro e
+          privado para desfrutar de momentos de puro prazer. Buscamos entregar
+          um serviço de qualidade, com respeito e atenção às necessidades de
+          cada cliente.
         </p>
       </div>
     </>

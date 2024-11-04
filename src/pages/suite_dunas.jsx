@@ -1,5 +1,7 @@
 import DUNAS_HEADER from "../assets/suite-dunas-header.jpeg";
 import DUNAS from "../assets/suite-dunas.jpeg";
+import DUNAS2 from "../assets/dunas_2.jpeg";
+import DUNAS3 from "../assets/dunas_3.jpeg";
 import SuiteHeader from "../components/SuiteHeader";
 import SuiteDetails from "../components/SuiteDetails";
 import SuiteAmenities from "../components/SuiteAmenities";
@@ -24,16 +26,18 @@ const SuiteDunas = () => {
     { description: 'Terceira pessoa na suíte', value: '35,00' },
   ];
 
+  const images = [DUNAS, DUNAS2, DUNAS3]; 
+
   return (
     <>
       <SuiteHeader image={DUNAS_HEADER} suiteName="DUNAS" />
       <SuiteDetails
         suiteName="DUNAS"
         description="A Suíte Dunas é ideal para quem busca compartilhar bons momentos com conforto, privacidade e segurança."
-        image={DUNAS}
+        images={images}
       />
-     <SuiteAmenities amenities={comodidades} />
-     <PriceTable title="TABELA DE PREÇOS DA SUÍTE DUNAS" prices={prices}/>
+      <SuiteAmenities amenities={comodidades} />
+      <PriceTable title="TABELA DE PREÇOS DA SUÍTE DUNAS" prices={prices} />
     </>
   );
 };
