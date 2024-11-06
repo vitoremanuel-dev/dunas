@@ -88,7 +88,7 @@ const Navbar = () => {
       </div>
       <div
         onClick={() => window.open("https://g.co/kgs/4UKyNvE", "_blank")}
-        className="bg-[#e4cc68] h-20 p-7 items-center justify-center text-black font-semibold text-2xl hidden md:block cursor-pointer"
+        className="bg-[#e4cc68] h-20 p-7 items-center justify-center text-black font-semibold text-2xl hidden md:block cursor-pointer z-50"
       >
         <p className="font-orbitron">DUNAS MOTEL</p>
       </div>

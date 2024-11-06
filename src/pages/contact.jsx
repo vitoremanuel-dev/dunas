@@ -13,10 +13,10 @@ const Contact = () => {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black bg-opacity-50 font-orbitron font-bold">
-          <p className="text-[3.6rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] text-black">
+          <p className="text-[3.6rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] ">
             NOSSO
           </p>
-          <span className="text-[3.6rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem]">
+          <span className="text-[3.6rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] text-[#c6b47d] ">
             CONTATO
           </span>
         </div>
