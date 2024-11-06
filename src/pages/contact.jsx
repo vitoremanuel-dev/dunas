@@ -1,5 +1,5 @@
 import Contato from "../assets/contato.jpeg";
-import Entrada from "../assets/entrada.jpeg";
+import Entrada from "../assets/entrada_motel.jpeg";
 import { MdPhone } from "react-icons/md";
 import { TiSocialInstagram } from "react-icons/ti";
 

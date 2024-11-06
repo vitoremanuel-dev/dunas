@@ -71,8 +71,8 @@ const Home = () => {
                 className="h-full w-full object-cover mx-auto"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 text-white opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">
-                <span className="flex text-center text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-semibold font-orbitron">
-                  SUÍTE <br /> DUNAS
+                <span className="flex flex-col text-center text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-semibold font-orbitron">
+                  SUÍTE <br /> <span className="text-[#c6b47d]">DUNAS</span>
                 </span>
               </div>
             </div>
@@ -90,8 +90,8 @@ const Home = () => {
                 className="h-full w-full object-cover mx-auto"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 text-white opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">
-                <span className="flex text-center text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-semibold font-orbitron">
-                  SUÍTE <br /> CLASSIC
+                <span className="flex flex-col text-center text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-semibold font-orbitron">
+                  SUÍTE <br /> <span className="text-[#c6b47d]">CLASSIC</span>
                 </span>
               </div>
             </div>
@@ -109,8 +109,8 @@ const Home = () => {
                 className="h-full w-full object-cover mx-auto"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 text-white opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">
-                <span className="flex text-center text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-semibold font-orbitron">
-                  SUÍTE <br /> ESTAR VIP
+                <span className="flex flex-col text-center text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-semibold font-orbitron">
+                  SUÍTE <br /> <span className="text-[#c6b47d]">ESTAR VIP</span>
                 </span>
               </div>
             </div>

@@ -4,6 +4,7 @@ import CLASSIC_HEADER from "../assets/suite-classic-header.jpeg";
 import CLASSIC from "../assets/suite-classic.jpeg";
 import CLASSIC2 from "../assets/classic_2.jpeg";
 import CLASSIC3 from "../assets/classic_3.jpeg";
+import GARAGEM from "../assets/garagem_classic.jpeg";
 import SuiteDetails from "../components/SuiteDetails";
 import SuiteAmenities from "../components/SuiteAmenities";
 import PriceTable from "../components/PriceTable";
@@ -32,7 +33,7 @@ const SuiteClassic = () => {
     { description: "Terceira pessoa na suíte", value: "35,00" },
   ];
 
-  const images = [CLASSIC, CLASSIC2, CLASSIC3];
+  const images = [CLASSIC, CLASSIC2, CLASSIC3, GARAGEM];
 
   return (
     <>
@@ -46,7 +47,7 @@ sua criatividade!"
         images={images}
       />
       <SuiteAmenities amenities={comodidades} />
-      <PriceTable title="TABELA DE PREÇOS DA SUÍTE CLASSIC" prices={prices} />
+      <PriceTable title="TABELA DE PREÇOS" prices={prices} suiteName="SUÍTE CLASSIC"/>
     </>
   );
 };

@@ -43,7 +43,7 @@ const SuiteEstarVip = () => {
         images={images}
       />
       <SuiteAmenities amenities={comodidades} />
-      <PriceTable title="TABELA DE PREÇOS DA SUÍTE ESTAR-VIP" prices={prices} />
+      <PriceTable title="TABELA DE PREÇOS" prices={prices} suiteName='SUÍTE ESTAR-VIP'/>
     </>
   );
 };
