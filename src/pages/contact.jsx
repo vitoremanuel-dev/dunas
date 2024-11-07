@@ -21,7 +21,7 @@ const Contact = () => {
           </span>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row w-full bg-black text-white h-auto font-orbitron">
+      <div className="flex flex-col-reverse md:flex-row w-full bg-black text-white h-auto font-orbitron">
         <div className="w-full md:w-1/2 flex flex-col items-center text-center md:justify-between text-[1rem] md:text-[1.2rem] lg:text-[1.5rem] px-4 md:px-12 py-8">
           <p className="text-3xl md:text-4xl text-[#e4cc68]">VENHA NOS VISITAR!</p>
           <span className="font-roboto py-2">
