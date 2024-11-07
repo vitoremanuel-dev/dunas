@@ -34,7 +34,7 @@ const Navbar = () => {
   };
 
   const goToContact = () => {
-    navigate("/contato");
+    navigate("/como-chegar");
     window.scrollTo(0, 0);
   };
 
@@ -83,7 +83,7 @@ const Navbar = () => {
           onClick={goToContact}
           className="cursor-pointer text-[1rem] md:text-lg 2xl:text-xl"
         >
-          CONTATO
+          COMO CHEGAR
         </span>
       </div>
       <div

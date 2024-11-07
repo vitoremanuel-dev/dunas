@@ -23,7 +23,7 @@ createRoot(document.getElementById("root")).render(
                 <Route path="/suite-dunas" element={<SuiteDunas />}/>
                 <Route path="/suite-classic" element={<SuiteClassic />}/>
                 <Route path="/suite-estar-vip" element={<SuiteEstarVip />}/>
-                <Route path="/contato" element={<Contact />}/>
+                <Route path="/como-chegar" element={<Contact />}/>
               </Routes>
             </div>
           </div>
