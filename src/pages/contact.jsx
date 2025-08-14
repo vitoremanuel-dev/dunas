@@ -32,7 +32,7 @@ const Contact = () => {
           </p>
           <div className="flex items-center mb-2 sm:mb-0 font-roboto">
             <MdPhone />
-            <span className="ml-2">(85) 3023-7713</span>
+            <span className="ml-2">(85) 99640-7009</span>
           </div>
           <div
             onClick={() =>
