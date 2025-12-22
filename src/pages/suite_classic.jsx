@@ -27,9 +27,9 @@ const SuiteClassic = () => {
   ];
 
   const prices = [
-    { description: "Permanência de 2 horas", value: "120,00" },
-    { description: "Cada meia hora excedente", value: "28,00" },
-    { description: "Pernoite de 8 horas", value: "240,00" },
+    { description: "Permanência de 2 horas", value: "130,00" },
+    { description: "Cada meia hora excedente", value: "30,00" },
+    { description: "Pernoite de 8 horas", value: "260,00" },
     { description: "Terceira pessoa na suíte", value: "35,00" },
   ];
 
