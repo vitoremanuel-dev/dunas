@@ -26,9 +26,9 @@ const SuiteDunas = () => {
   ];
 
   const prices = [
-    { description: "Permanência de 2 horas", value: "90,00" },
-    { description: "Cada meia hora excedente", value: "22,00" },
-    { description: "Pernoite de 8 horas", value: "180,00" },
+    { description: "Permanência de 2 horas", value: "95,00" },
+    { description: "Cada meia hora excedente", value: "25,00" },
+    { description: "Pernoite de 8 horas", value: "190,00" },
     { description: "Terceira pessoa na suíte", value: "35,00" },
   ];
 
