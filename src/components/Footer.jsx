@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="flex items-center mb-2 sm:mb-0">
             <MdPhone className="text-lg sm:text-xl 2xl:text-2xl" />
             <span className="ml-2 text-[0.8rem] sm:text-base lg:text-xl 2xl:text-2xl">
-            (85) 99640-7009
+            (85) 2023-7713
             </span>
           </div>
           <div
